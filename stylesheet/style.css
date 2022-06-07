@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/Flex-Assignment/assets/pexels-victor-santos-325703.jpg');
+    /* background-color: black; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+    
+}
+.listitem{
+    width: 100px;
+    font-weight: bold;
+    
+}
+li>a{
+    text-decoration: none;
+}
+.center-elements{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 0%; */
+    /* background-color: blue; */
+    width: 20%;
+    align-items: center;
+    background-color:rgb(248, 250, 180);
+    
+}
+.asideul{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    height: 200px;
+    
+}
+/* #asideimg{
+    width: 200px;
+    height: 300px;
+} */
+.aside-list-items{
+    width: inherit;
+    text-align: center;
+    /* background-color:white; */
+    padding: 10px 0px;
+    color:black;
+    
+}
+
+.articles{
+    width: 79%;
+    /* background-color: yellow; */
+    display: flex;
+    color: white;
+}
+.article-images{
+    width: 300px;
+    height: 300px;
+}
+.article-no-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.article-no-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.article-no-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    margin: 0%;
+    padding: 0%;
+}
+.article-button{
+    padding: 5px;
+    font-size: medium;
+    font-weight: 100;
+    border: 2px solid gray;
+    font-weight: bold;
+}
+.article-button:hover{
+    background-color: black;
+    color: white;
+    width: 150px;
+    outline: none;
+    border: 2px solid white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+}
